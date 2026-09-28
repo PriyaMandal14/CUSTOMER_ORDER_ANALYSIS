@@ -1,4 +1,5 @@
 Customer Order Analysis Report 
+
 • Summary 
 This report presents a comprehensive analysis of customer orders using Python’s built-in data 
 structures. The goal is to classify customers by spending behavior, evaluate product category 
