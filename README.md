@@ -47,7 +47,7 @@ The models were evaluated using metrics such as accuracy, precision, recall, and
 
 Project File:
 
-The complete implementation is available in: customer-order-analysis.ipynb.
+The complete implementation is available in: Project1.ipynb.
 
 How to Run:
 
