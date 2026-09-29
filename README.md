@@ -1,56 +1,99 @@
-Customer Order Analyssis
+# Customer Order Analysis
 
+## Project Overview
 
-Project Overview: This project predicts whether a customer is likely to leave a company using machine learning techniques.
+This project is a Python-based customer order management and analysis program. It stores customer orders, classifies products into categories, analyzes customer spending, and generates simple business insights from the order data.
 
-Technologies Used:
+The project demonstrates the use of Python data structures and programming concepts to organize and analyze customer purchase information.
 
-1. Python
+## Technologies Used
 
-2. Pandas
+* Python
+* Lists
+* Tuples
+* Dictionaries
+* Sets
+* Loops
+* Conditional Statements
+* Sorting
 
-3. NumPy
+## Project Features
 
-4. Matplotlib
+### 1. Store Customer Orders
 
-5. Scikit-learn
+* Stores customer names and order details
+* Records product name, price, and category
+* Organizes orders using a dictionary based on customer names
 
-6. Google Colab
+### 2. Classify Products by Category
 
-Dataset:
-The project uses a customer churn dataset containing information such as customer demographics, services, and account details.
+* Maps products to their respective categories
+* Identifies unique product categories
 
-What I Did:
+### 3. Analyze Customer Orders
 
-1. Cleaned and prepared the dataset
+* Calculates total spending for each customer
+* Classifies customers based on their spending:
 
-2. Performed data analysis and visualization
+  * **High-Value Buyer** – spending above $100
+  * **Moderate Buyer** – spending between $50 and $100
+  * **Low-Value Buyer** – spending below $50
 
-3. Selected relevant features
+### 4. Generate Business Insights
 
-4. Trained machine learning models
+The program calculates:
 
-5. Evaluated model performance
+* Total revenue for each product category
+* Unique products
+* Customers who purchased electronics
+* Top 3 highest-spending customers
 
-6. Compared the results of different models
+### 5. Organize and Display Data
 
-Machine Learning Models:
+The project also identifies:
 
-1. Logistic Regression
+* Each customer's total spending and classification
+* Customers who purchased products from multiple categories
+* Customers who purchased both electronics and clothing
 
-2. Decision Tree
+## Data Used
 
-3. Random Forest
+The project uses sample customer order data containing:
 
-Results: 
-The models were evaluated using metrics such as accuracy, precision, recall, and F1-score.
+* Customer name
+* Product
+* Price
+* Product category
 
-Project File:
+The categories used in the project include:
 
-The complete implementation is available in: Project1.ipynb.
+* Electronics
+* Clothing
+* Home Essentials
 
-How to Run:
+## Key Python Concepts Demonstrated
 
-1. Download or open the notebook.
-2. Upload it to Google Colab.
-3. Run the cells in order.
+* Creating and manipulating lists
+* Working with tuples
+* Using dictionaries for data organization
+* Using sets to find unique values
+* Iterating through data using loops
+* Using conditional statements for customer classification
+* Sorting data to find top spenders
+* Using set intersection to identify common customers
+
+## Project File
+
+The complete project is available in:
+
+`Project1.ipynb`
+
+## How to Run
+
+1. Open `Project1.ipynb` in Google Colab or Jupyter Notebook.
+2. Run the cells in order.
+3. The program will generate customer spending summaries and business insights.
+
+## Author
+
+**Priya Mandal**
